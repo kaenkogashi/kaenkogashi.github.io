@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kaen Kogashi — Computer Vision and Tactile-Based Dexterous Manipulation" />
+  <title>Kaen Kogashi | Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">
+        <span class="brand-mark">KK</span>
+        <span>Kaen Kogashi</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#top">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section" style="padding-bottom: 28px;">
+      <div class="container hero-grid">
+        <div>
+          <h1>Kaen Kogashi</h1>
+          <p class="hero-role">
+            Researcher in World Action Modeling of Tactile-Based Dexterous Manipulation and Human–Objects 3D Reconstruction
+          </p>
+          <p class="hero-text">
+            My research focuses on understanding complex interactions among multiple humans
+            and objects in 3D environments, with interests spanning tactile-based dexterous manipulation in Robotics.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="assets/kogashi.pdf">Curriculum Vitae</a>
+            <a class="button secondary" href="https://scholar.google.com/citations?user=FPKN-H4AAAAJ&hl=ja" target="_blank" rel="noopener">Google Scholar</a>
+            <a class="button secondary" href="https://github.com/kaenkogashi" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+        <aside class="profile-card">
+          <img src="assets/self.jpg" alt="Profile placeholder for Kaen Kogashi" class="profile-photo" />
+          <div class="profile-meta">
+            <h2>Kaen Kogashi</h2>
+            <p>Mitsubishi Electric</p>
+            <p class="muted">Computer Vision · Robotics</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <section id="research" class="section" style="padding-top: 28px;">
+      <div class="container">
+        <p class="section-kicker">RESEARCH</p>
+        <h2>Current research directions</h2>
+
+        <div class="card-grid">
+          <article class="topic-card">
+            <div class="topic-number">01</div>
+            <h3>3D Multiple Human–Object Interactions</h3>
+            <p>Modeling complex interactions involving multiple humans and multiple objects in 3D scenes.</p>
+          </article>
+          <article class="topic-card">
+            <div class="topic-number">02</div>
+            <h3>Tactile-Based Dexterous Manipulation</h3>
+            <p>TacSushi: Learning Sushi Making with a Dexterous Tactile Manipulator and World Models.</p>
+          </article>
+        </div>
+
+        <div class="tag-row">
+          <span>World Model</span>
+          <span>Dexterous Manipulation</span>
+          <span>3D Vision</span>
+          <span>Multiple Human–Object Interaction</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section section-soft">
+      <div class="container">
+        <p class="section-kicker">SELECTED PUBLICATIONS</p>
+        <h2>Recent projects and papers</h2>
+                <article class="publication featured">
+          <div class="pub-visual">
+            <video controls playsinline preload="metadata">
+              <source src="assets/teleop.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="pub-content">
+            <div class="pub-badges">
+              <span class="badge">Under Review</span>
+            </div>
+            <h3>TacSushi: Learning Sushi Making with a Dexterous Tactile Manipulator and World Model</h3>
+            <p class="authors">
+              <strong>Kaen Kogashi</strong>, Haodi Hu, Toshiaki Koike-Akino
+            </p>
+            <p>
+              A tactile dexterous manipulation project that combines fingertip force sensing, 
+              Shadow Hand teleoperation, and world-model learning for deformable sushi-making skills, 
+              with highlights on contact-rich perception, soft ingredient handling, and long-horizon manipulation primitives.
+            </p>
+          </div>
+
+          <div class="pub-videos" aria-label="MMHOI videos">
+          <div class="video-item">
+            <video controls playsinline preload="metadata">
+              <source src="assets/rice_ball.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h6>Rice Ball</h6>
+          </div>
+
+          <div class="video-item">
+            <video controls playsinline preload="metadata">
+              <source src="assets/salmon.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h6>Salmon</h6>
+          </div>
+
+          <div class="video-item">
+            <video controls playsinline preload="metadata">
+              <source src="assets/nori.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h6>Seaweed</h6>
+          </div>
+
+        </div>
+        </article>
+
+        <article class="publication featured">
+          <div class="pub-visual">
+            <video controls playsinline preload="metadata" poster="assets/MMHOI.png">
+              <source src="assets/MMHOI_V2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="pub-content">
+            <div class="pub-badges">
+              <span class="badge">WACV 2026</span>
+              <span class="badge badge-light">Top-rated paper</span>
+            </div>
+            <h3>MMHOI: Modeling Complex 3D Multi-Human Multi-Object Interactions</h3>
+            <p class="authors">
+              <strong>Kaen Kogashi</strong>, Anoop Cherian, Meng-Yu Jennifer Kuo
+            </p>
+            <p>
+              A framework and dataset for modeling complex 3D interaction scenes involving
+              multiple humans and multiple objects, with support for object-part affordance annotations (MMHOI-v2).
+            </p>
+            <div class="pub-links">
+              <a href="https://zenodo.org/records/17711786" target="_blank" rel="noopener">Code / Dataset</a>
+              <a href="https://arxiv.org/abs/2510.07828" target="_blank" rel="noopener">Paper</a>
+              <a href="#" aria-label="Replace with project page URL">Project Page</a>
+            </div>
+          </div>
+
+          <div class="pub-videos" aria-label="MMHOI videos">
+            <video controls playsinline preload="metadata">
+              <source src="assets/1.mp4" type="video/mp4">
+            </video>
+            <video controls playsinline preload="metadata">
+              <source src="assets/2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video controls playsinline preload="metadata">
+              <source src="assets/3.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </article>
+
+       <article class="publication">
+          <div class="pub-content full">
+
+            <div class="pub-badges">
+              <span class="badge badge-light">ICME 2022</span>
+            </div>
+
+            <h3>Dyadic Human Relation Recognition</h3>
+            <p class="authors">
+              <strong>Kaen Kogashi</strong>, Shohei Nobuhara, Ko Nishino
+            </p>
+
+            <p>
+              Dataset and research resources for understanding
+              dyadic human relations in still images.
+            </p>
+
+            <div class="pub-visual dhi-video">
+              <video controls playsinline preload="metadata">
+                <source src="assets/dhi.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            <div class="pub-links">
+              <a href="https://github.com/kaenkogashi/DHR-WebImages"
+                target="_blank"
+                rel="noopener">
+                GitHub
+              </a>
+            </div>
+
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="news" class="section">
+      <div class="container">
+        <p class="section-kicker">NEWS</p>
+        <h2>Recent updates</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <time>2026</time>
+            <div>
+              <h3>MMHOI published at WACV 2026</h3>
+              <p>MMHOI was published in the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026 and was selected among the conference's top-rated papers.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <time>2026</time>
+            <div>
+              <h3>Extended MMHOI-v2 research</h3>
+              <p>Continuing research on Structured Affordance-Guided Modeling of Complex 3D Multi-Human-Object Interactions. https://github.com/kaenkogashi/MMHOI</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <time>2026</time>
+            <div>
+              <h3>MMHOI dataset available on Zenode</h3>
+              <p>Dataset is available from the Zenode repository. https://zenodo.org/records/17711786</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box">
+        <div>
+          <p class="section-kicker">CONTACT</p>
+          <h2>Research discussions and collaboration</h2>
+          <p>
+            Please feel free to reach out regarding research in dexterous manipulation, 
+            4D dynamic multiple human–object interactions, affordance modeling, or related topics.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:kaenkogashi@gmail.com">Email</a>
+          <a href="https://github.com/kaenkogashi" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/kaen-kogashi-583a7b152/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=FPKN-H4AAAAJ&hl=ja" target="_blank" rel="noopener">Google Scholar</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Kaen Kogashi</span>
+      <span>Academic research portfolio · GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
